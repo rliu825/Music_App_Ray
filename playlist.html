@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Exercise 1</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="playlist.css">
+  </head>
+  <body>
+    
+      
+      <div class="container">
+        <div class="header">
+          <nav class="navbar navbar-default navbar-fixed-top">
+            <ul class="nav nav-tabs">
+      
+              <li class= "icon col-xs-4 col-sm-4" >
+                <span class="glyphicon glyphicon-music" aria-hidden="true"></span>
+                <div class="optionText">Library</div>  
+              </li>
+              
+              <li class= "icon col-xs-4 col-sm-4" id="active">
+                <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                <div class="optionText" >Playlists</div> 
+              </li>
+
+              <li class= "icon col-xs-4 col-sm-4">
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                <div class="optionText">Search</div> 
+              </li>
+            </ul>
+          </nav>
+          
+        </div>
+
+
+        <div class="bodybox">
+          <div id="AddPlayListSection">
+
+            <button id="addPlayListButton"> 
+            <div id="Playlist-content">   
+            <span class="glyphicon glyphicon-plus" ></span><span id="Playlist-text">Playlist</span></div>
+            </button>
+          
+
+          <section class="Playlists">
+            <div class="row">
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">Lady Gaga</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">Taylor Swift</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">Red Hot Chili Peppers</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">Michael Jackson</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">90's Mega Mix</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">80's Mega Mix</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">70's Mega Mix</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">60's Mega Mix</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">Rock</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">Classic</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">Country</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">Beatles</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">Pop</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">Rap</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">Rock 2</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">Classic 2</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">Country 2</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">Beatles 2</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+              <div class="musicType">
+                <span class="picture col-xs-4 col-sm-4"><canvas class="rectangle"></canvas></span>
+                <span class="musicTypetext col-xs-4 col-sm-4">Pop 2</span>
+                <span class="glyphicon glyphicon-chevron-right col-xs-4 col-sm-4"></span>
+              </div>
+
+
+
+
+
+
+            </div>
+          </section>
+
+        </div>
+      </div>
+
+
+    </div>
+  </body>
+</html>

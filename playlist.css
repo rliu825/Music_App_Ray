@@ -1,0 +1,175 @@
+.songs, .playlists, .search {
+    display: none;
+}
+
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: "Arial";
+
+}
+
+#active {
+  color: #810082;
+}
+
+.navbar {
+    width: 100%;
+    margin:0 auto;
+	display:block;
+
+}
+
+.nav-tabs {
+	margin-top: 5px;
+	height: 80px;
+	padding-top: 10px;
+	width: 80%;
+    margin:0 auto;
+    border: none;
+}
+
+.header {
+    margin:0 auto;
+	display:block;
+	position: relative;
+	height:80px;
+	width: 100%;
+
+
+}
+
+.bodybox{
+	margin-top: 0px;
+	padding:0; 
+	width: 100%;
+    margin:0 auto;
+	display:block;
+	border:1px;
+	border-top: none;
+	position: relative;
+
+}
+
+.container{
+    width: 100%;
+    margin:0 auto;
+	display:block;
+	padding:0; 
+}
+
+
+#AddPlayListSection{
+	padding-top: 20px;
+	background-color: #E8E0F4;
+}
+
+#addPlayListButton {
+	background-color: #936AC7;
+	margin-top: 25px;
+	width: 90%;
+	margin:0 auto;
+	border: 1px;
+	border-radius: 10px;
+	position:relative;
+	display:block;
+	height: 60px;
+}
+
+#Playlist-content {
+	font-size: 4px;
+	color: white;
+}
+
+#Playlist-text {
+	margin-left: 10px;
+	font-size: 25px;
+	font-weight: normal;
+}
+
+
+
+.icon{
+	text-align: center;
+}
+
+.glyphicon-plus {
+	font-size: 20px;
+}
+
+.glyphicon-music, .glyphicon-th-list, .glyphicon-search{
+	font-size: 40px;
+}
+
+
+.optionText {
+	color: #936AC7;
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+
+
+
+
+.musicType:active {
+	background-color: #a658d3;
+		
+}
+
+.rectangle {
+	width:70px;
+	height:50px;
+	border:1px solid #000;
+	padding-bottom:0px;
+	background-color: #D8D8D8;
+}
+
+.picture {
+	padding-bottom:0; 
+}
+
+.musicTypetext{
+	margin-top: 20px;
+	font-size: 20px;
+	color: #9a79c6;
+	
+}
+
+.glyphicon-chevron-right {
+	margin-top: 10px;
+	font-size: 40px;
+	color: #847d7d;
+	padding-right: 0px;
+}
+
+
+.row {
+	position:relative;
+	width: 100%;
+	margin:0 auto;
+	padding:0; 
+	
+}
+
+
+.musicType {
+	margin-right: 0;
+	margin:0 auto;
+	width: 90%;
+	position:relative;
+	text-align: center;
+	border-bottom: 1px solid;
+
+	height: 90px;
+	padding-top:15px;
+}
+
+#lastMusicType{
+	border-bottom:none; 
+}
